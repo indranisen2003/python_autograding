@@ -1,4 +1,7 @@
-import hello;
+import pandas as pd;
 
-def test_hello():
-    assert hello.hello_world() == "Hello World!"
+df=pd.read_csv("walmart2.csv");
+df.dtypes
+df.head(15)
+
+
