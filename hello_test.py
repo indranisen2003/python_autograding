@@ -2,7 +2,7 @@ import pandas as pd;
 
 try:
   hello()
-except Exception, error:
+except:
   print "An exception was thrown!"
   print str(error)
-  assert False, f"raised an exception {error}"
+  assert False, f"raised an exception"
