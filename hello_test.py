@@ -1,3 +1,4 @@
+import hello_world()
 try:
     hello_world()
 except:
