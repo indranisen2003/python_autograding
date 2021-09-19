@@ -1,5 +1,8 @@
 import pandas as pd;
 
-df=pd.read_csv("walmart2.csv");
-df.dtypes
-df.head(15)
+try:
+  hello()
+except Exception, error:
+  print "An exception was thrown!"
+  print str(error)
+  assert False, f"raised an exception {error}"
