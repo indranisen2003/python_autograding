@@ -3,6 +3,6 @@ import pandas as pd;
 try:
   hello()
 except:
-  print "An exception was thrown!"
-  print str(error)
+  print ("An exception was thrown!")
+  
   assert False, f"raised an exception"
